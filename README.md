@@ -1,24 +1,20 @@
-# vuejstp
+# Vue.js & TypeScript Project
 
-## Project setup
-```
-npm install
-```
+## Installation
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Clonez le dépôt ou extrayez les fichiers de l'archive ZIP.
+2. Exécutez `npm install` pour installer les dépendances.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Lancer le projet
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. Exécutez `npm run serve` pour démarrer le serveur de développement.
+2. Ouvrez `http://localhost:8080` dans votre navigateur pour voir l'application.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Description
+
+Ce projet utilise Vue.js avec TypeScript pour récupérer et afficher des données depuis l'API JSONPlaceholder. Les fonctionnalités incluent :
+
+- Récupération des utilisateurs, posts, photos et commentaires.
+- Affichage des données dans des tableaux.
+- Navigation dynamique entre les différentes pages sans rechargement de la page.
+- Utilisation de Zod.js pour valider les données.
